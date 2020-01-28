@@ -1,0 +1,73 @@
+/* NOTO SANS */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+
+/* ALDRICH */
+@import url('https://fonts.googleapis.com/css?family=Aldrich&display=swap');
+
+:root {
+  --onyx: #001514;
+  --snow: #F9FFFE;
+  --tropical-green: #046B65;
+  --persian-green: #0BA39B;
+  --turquoise: #2DE5DC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 21px;
+}
+
+body {
+  color: var(--snow);
+  background-color: var(--onyx);
+  overflow: hidden;
+}
+
+
+section#clock {
+  display: grid;
+  width: 100vw;
+  padding: 2rem;
+}
+
+article#time {
+  font-family: 'Aldrich', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1.display-1 {
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: 'Noto-Sans', sans-serif;
+  line-height: 2.0;
+}
+
+section#clock>h1.display-1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+div.col>h1 {
+  font-size: 4rem;
+}
+
+div.col>p {
+  text-align: center;
+  line-height: 2;
+  color: #0BA39B;
+}
