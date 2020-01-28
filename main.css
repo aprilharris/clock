@@ -10,6 +10,7 @@
   --tropical-green: #046B65;
   --persian-green: #0BA39B;
   --turquoise: #2DE5DC;
+  --spring: #9af6e7;
 }
 
 
@@ -18,15 +19,22 @@ html {
   font-family: 'Opens Sans'
 }
 
+a {
+  color: #0BA39B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--spring);
+  text-decoration: none;
+}
 
 body {
   color: var(--snow);
   background-color: var(--onyx);
 }
 
-a {
-  color: #0BA39B;
-}
+
 
 header {
   background-color: var(--tropical-green);
