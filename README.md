@@ -9,4 +9,4 @@
 
 <p>The script in this project uses the Date() object constructor. The Date()contructor creates a date which we can build upon to display the time, etc.</p>
 
-<img src="#" />
+<img src="https://github.com/aprilharris/clock/blob/master/preview.png" width="500" />
